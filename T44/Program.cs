@@ -7,10 +7,10 @@
 
 void Fibonacci(int n)
 {
-    if (n < 0) Console.Write("Введите положительное значение");
     int FnPrevious = 1;
     int FnPrePrevious = 0;
     int result = 0;
+    if (n < 0) Console.Write("Введите положительное значение");
     for (int i = 0; i < n; i++)
     {
         if (i == 0)
